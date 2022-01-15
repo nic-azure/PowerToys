@@ -64,9 +64,9 @@ namespace MonacoPreviewHandler {
         ///   Looks up a localized string similar to Exception occured:
         ///.
         /// </summary>
-        internal static string Exception_Occured {
+        internal static string Exception_Occurred {
             get {
-                return ResourceManager.GetString("Exception_Occured", resourceCulture);
+                return ResourceManager.GetString("Exception_Occurred", resourceCulture);
             }
         }
         

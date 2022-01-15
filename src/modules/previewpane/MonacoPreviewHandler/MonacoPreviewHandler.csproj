@@ -39,7 +39,6 @@
     </ItemGroup>
     
     <ItemGroup>
-      <ProjectReference Include="..\..\..\src\modules\previewpane\common\PreviewHandlerCommon.csproj" />
       <ProjectReference Include="..\common\PreviewHandlerCommon.csproj" />
     </ItemGroup>
 
