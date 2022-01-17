@@ -845,6 +845,15 @@
                 <File Source="$(var.BinX64Dir)modules\FileExplorerPreview\Markdig.Signed.dll" />
                 <File Source="$(var.BinX64Dir)modules\FileExplorerPreview\HtmlAgilityPack.dll" />
                 <File Id="FileExplorerPreview_System.IO.Abstractions.dll" Source="$(var.BinX64Dir)modules\FileExplorerPreview\System.IO.Abstractions.dll" />
+                <!-- Files to include dll's for Monaco Preview Handler and it's dependencies -->
+                <File Source="$(var.BinX64Dir)modules\FileExplorerPreview\PowerToys.MonacoPreviewHandler.dll" />
+                <File Source="$(var.BinX64Dir)modules\FileExplorerPreview\PowerToys.MonacoPreviewHandler.comhost.dll" />
+                <File Source="$(var.BinX64Dir)modules\FileExplorerPreview\PowerToys.MonacoPreviewHandler.runtimeconfig.json" />
+                <File Source="$(var.BinX64Dir)modules\FileExplorerPreview\PowerToys.MonacoPreviewHandler.deps.json" />
+                <File Source="$(var.BinX64Dir)modules\FileExplorerPreview\Microsoft.Web.WebView2.Core.dll" />
+                <File Source="$(var.BinX64Dir)modules\FileExplorerPreview\Microsoft.Web.WebView2.WinForms.dll" />
+                <File Source="$(var.BinX64Dir)modules\FileExplorerPreview\Microsoft.Web.WebView2.Wpf.dll" />
+                <File Source="$(var.BinX64Dir)modules\FileExplorerPreview\index.html" />
                 <!-- File to include dll for Pdf Preview Handler -->
                 <File Source="$(var.BinX64Dir)modules\FileExplorerPreview\PowerToys.PdfPreviewHandler.dll" />
                 <File Source="$(var.BinX64Dir)modules\FileExplorerPreview\PowerToys.PdfPreviewHandler.comhost.dll" />
